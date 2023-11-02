@@ -43,3 +43,30 @@ Network Architecture
 a. Layer 1: 300 neurons (ReLu activation functions) 
 b. Layer 2: 100 neurons (ReLu activation function) 
 c. Layer 3: Softmax Layer
+
+
+*******************************Question 3 ************************************************************
+
+Network Architecture
+
+a. Layer 1: 300 neurons (ReLu activation functions) 
+b. Layer 2: Dropout Layer 
+c. Layer 3: 100 neurons (ReLu activation function) 
+d. Layer 4: Softmax Layer
+
+
+*******************************Question 4 ************************************************************
+
+Autoencoder is a neural network that takes in a particular input and is trained to reproduce it as the output of the network.
+For example, as shown below an autoencoder might take in an input image, 
+encode it to a lower dimensional representation and then decode it back to the same resolution image.
+
+Network Architecture 
+
+a. Layer 1: 128 Neurons with ReLu activations 
+b. Layer 2: 64 Neurons with ReLu activations 
+c. Layer 3: 32 Neurons with ReLu activations 
+d. Layer 4: 64 Neurons with ReLu activations 
+e. Layer 5: 128 Neurons with ReLu activations 
+f. Layer 6: 784 Neurons with Sigmoid activations
+
