@@ -3,8 +3,8 @@ BUILDING USING LOW LEVEL API AND TENSORFLOW
 
 The Fashion - MNIST dataset is a basic image dataset consisting of a training set of 60,000 examples and a 
 test set of 10,000 examples. Each example is a 28x28 grayscale image (784 pixel values in total), associated 
-with a label from 10 different classes. The following are the set of classes i n this classification problem 
-( the associated integer class label is listed in brackets ) . 
+with a label from 10 different classes. The following are the set of classes in this classification problem 
+( the associated integer class label is listed in brackets ). 
 • T - shirt/top (0) 
 • Trouser (1)
 • Pullover (2)
@@ -16,7 +16,8 @@ with a label from 10 different classes. The following are the set of classes i n
 • Bag (8)
 • Ankle boot (9)
 
- In this code the class labels are one hot encoded. For example, the final shape of t he matrix that contains the training class labels is ( 10, 60000 ).
+In this code the class labels are one hot encoded. For example, the final shape of the matrix that contains the training class labels 
+is ( 10, 60000 ).
 
 You will notice that this code will print out the shape of the training and test data for both features and labels as follows: 
          Shape of training features (60000, 784) 
