@@ -25,3 +25,21 @@ You will notice that this code will print out the shape of the training and test
          Shape of testing labels (10, 10000) 
 
 NOTE : Depending on how you implement your solution you may want to change the shape of the above matrices.
+
+*******************************Question 1 **********************************************************
+
+Build a neural network architectures using TensorFlow’s low level API with autodiff for tackling the Fashion MNIST problem
+
+Network Architecture 
+
+a. Layer 1: 200 neurons (ReLu activation functions)
+b. Layer 2: Softmax Layer
+
+
+*******************************Question 2 ************************************************************
+
+Network Architecture
+
+a. Layer 1: 300 neurons (ReLu activation functions) 
+b. Layer 2: 100 neurons (ReLu activation function) 
+c. Layer 3: Softmax Layer
